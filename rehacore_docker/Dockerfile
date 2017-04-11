@@ -1,4 +1,4 @@
 FROM optimmal/rehameta
 
-ENV ROS_IP=192.168.2.100
-
+ENV ROS_IP=localhost
+ENV ROS_MASTER_URI=http://localhost:11311

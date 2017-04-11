@@ -16,4 +16,4 @@ RUN /bin/bash -c "source /opt/ros/kinetic/setup.bash; \
                   catkin build"
 
 ENV ROS_MASTER_URI=http://192.168.2.100:11311
-EXPOSE 11311 80 443
+EXPOSE 11311 80 
