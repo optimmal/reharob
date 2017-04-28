@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
         python-catkin-tools \
         apt-utils \
         dialog \
-	ifconfig \
+	net-tools \
 	ping
 RUN mkdir -p /home/ros/ros_ws/src
 RUN /bin/bash -c ". /opt/ros/kinetic/setup.bash; catkin_init_workspace /home/ros/ros_ws/src"
